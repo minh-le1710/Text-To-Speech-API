@@ -1,0 +1,14 @@
+.git
+.github
+node_modules
+dist
+coverage
+logs
+tmp
+platform-data
+verification-samples
+samples
+*.log
+.env
+data/docx-jobs
+data/docx-jobs.sqlite

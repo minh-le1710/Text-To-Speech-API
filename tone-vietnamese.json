@@ -1,0 +1,730 @@
+{
+  "ret": "0",
+  "errmsg": "success",
+  "systime": "1775546569",
+  "logid": "20260407152249EE56F888CF69AA846024",
+  "log_id": "20260407152249EE56F888CF69AA846024",
+  "sign": "",
+  "response": "",
+  "svr_time": 1775546569,
+  "data": {
+    "has_more": false,
+    "next_offset": 34,
+    "effect_item_list": [
+      {
+        "common_attr": {
+          "id": "7491607775621943824",
+          "effect_id": "7491607775621943824",
+          "effect_type": 11,
+          "source": 1,
+          "title": "Trung Caha",
+          "description": "",
+          "cover_url": {
+            "small": "https://p16-heycan-image-sign-sg.ibyteimg.com/tos-alisg-i-fhsjxsyzit-sg/06207c5869a947658765589f1b1e01bf~tplv-fhsjxsyzit-image.image?lk3s=43402efa&x-expires=1807082569&x-signature=L%2Fz9Z9T8d0FgWsIYSeX4dzQFpP8%3D",
+            "static_img": "https://p16-heycan-image-sign-sg.ibyteimg.com/tos-alisg-i-fhsjxsyzit-sg/06207c5869a947658765589f1b1e01bf~tplv-fhsjxsyzit-resize:0:0.png?lk3s=43402efa&x-expires=1807082569&x-signature=2%2FkyGCKfK3vOVr8AVCsOG29hw98%3D"
+          },
+          "item_urls": null,
+          "md5": "f554735f65a98cc4da17a1c53ef6a886",
+          "has_favorited": false,
+          "third_resource_id": 7491607775621944000,
+          "third_resource_id_str": "7491607775621943824",
+          "create_time": 1744275970,
+          "statistics": {
+            "favorite_count": 0
+          },
+          "is_original": true,
+          "status": 102,
+          "review_info": {
+            "review_status": 1,
+            "review_code_list": [],
+            "extra_reason": "",
+            "review_reason_list": []
+          },
+          "aspect_ratio": 1,
+          "download_info": {
+            "url": "",
+            "format": ""
+          },
+          "publish_source": "loki",
+          "is_business": true,
+          "business_scope": [
+            "UNLIMITED"
+          ],
+          "business_info": {
+            "json_str": "{\"is_vip\":true,\"is_expired\":false,\"paid_type\":\"subscribe\",\"commercial_strategy\":{\"resource_export\":{\"paid_strategy_list\":[{\"paid_mode\":\"subscribe\",\"subscribe_package\":\"Pro\"}]}}}",
+            "sign": ""
+          },
+          "extra": "{\"is_aiavatar_ignore_phonemes\":true,\"tonetype\":\"{\\\"platform\\\":\\\"11labs\\\",\\\"name\\\":\\\"\\\",\\\"collaborator_name\\\":\\\"\\\",\\\"voice_type\\\":\\\"ueSxRO0nLF1bj93J2hVt\\\",\\\"rate\\\":\\\"24000\\\",\\\"tts_voice\\\":\\\"\\\"}\",\"is_boost_coldstart\":true,\"reading_speed\":1.3,\"tone_avatar_url\":\"https://p16-vimo-sg.ibyteimg.com/obj/tos-alisg-i-aifo7olm7m-sg/14d268d6e98d468c91a34e5941813d4f\",\"is_vip\":true,\"is_aiavatar\":true,\"is_business\":true}",
+          "vip_name": "",
+          "biz_extra": "{\"tonetype\":\"{\\\"platform\\\":\\\"11labs\\\",\\\"name\\\":\\\"\\\",\\\"collaborator_name\\\":\\\"\\\",\\\"voice_type\\\":\\\"ueSxRO0nLF1bj93J2hVt\\\",\\\"rate\\\":\\\"24000\\\",\\\"tts_voice\\\":\\\"\\\"}\",\"is_aiavatar\":true,\"reading_speed\":1.3,\"is_aiavatar_ignore_phonemes\":true,\"tone_avatar_url\":{\"uri\":\"tos-alisg-i-aifo7olm7m-sg/14d268d6e98d468c91a34e5941813d4f\",\"url\":\"https://p16-vimo-sg.ibyteimg.com/obj/tos-alisg-i-aifo7olm7m-sg/14d268d6e98d468c91a34e5941813d4f\"},\"is_boost_coldstart\":true}"
+        },
+        "author": {
+          "name": "CapCut-采买",
+          "avatar_url": "https://sf16-passport-sg.ibytedtos.com/obj/user-avatar-alisg/78e2048bf8783921eaae02afff20252e.png",
+          "source": 1,
+          "uid": "7477799919869346833"
+        },
+        "timbre": {
+          "voice_type": "",
+          "voice": "",
+          "voice_rate": 24000
+        },
+        "template": null
+      },
+      {
+        "common_attr": {
+          "id": "7493478233703191041",
+          "effect_id": "7493478233703191041",
+          "effect_type": 11,
+          "source": 1,
+          "title": "Nam Trầm",
+          "description": "",
+          "cover_url": {
+            "small": "https://p16-heycan-image-sign-sg.ibyteimg.com/tos-alisg-i-fhsjxsyzit-sg/04dc4ae82d78401da51be4a0e57b82a0~tplv-fhsjxsyzit-image.image?lk3s=43402efa&x-expires=1807082569&x-signature=93eJRSDlC8%2B5iuTPycc0qvXZRTg%3D",
+            "static_img": "https://p16-heycan-image-sign-sg.ibyteimg.com/tos-alisg-i-fhsjxsyzit-sg/04dc4ae82d78401da51be4a0e57b82a0~tplv-fhsjxsyzit-resize:0:0.png?lk3s=43402efa&x-expires=1807082569&x-signature=TBZmTcDBtXr8bh6kaVemaDcHqnU%3D"
+          },
+          "item_urls": null,
+          "md5": "f554735f65a98cc4da17a1c53ef6a886",
+          "has_favorited": false,
+          "third_resource_id": 7493478233703192000,
+          "third_resource_id_str": "7493478233703191041",
+          "create_time": 1744711385,
+          "statistics": {
+            "favorite_count": 0
+          },
+          "is_original": true,
+          "status": 102,
+          "review_info": {
+            "review_status": 1,
+            "review_code_list": [],
+            "extra_reason": "",
+            "review_reason_list": []
+          },
+          "aspect_ratio": 1,
+          "download_info": {
+            "url": "",
+            "format": ""
+          },
+          "publish_source": "loki",
+          "is_business": true,
+          "business_scope": [
+            "UNLIMITED"
+          ],
+          "business_info": {
+            "json_str": "{\"is_vip\":true,\"is_expired\":false,\"paid_type\":\"subscribe\",\"commercial_strategy\":{\"resource_export\":{\"paid_strategy_list\":[{\"paid_mode\":\"subscribe\",\"subscribe_package\":\"Pro\"}]}}}",
+            "sign": ""
+          },
+          "extra": "{\"is_boost_coldstart\":true,\"tonetype\":\"{\\\"platform\\\":\\\"11labs\\\",\\\"name\\\":\\\"\\\",\\\"collaborator_name\\\":\\\"\\\",\\\"voice_type\\\":\\\"9EE00wK5qV6tPtpQIxvy\\\",\\\"rate\\\":\\\"24000\\\",\\\"tts_voice\\\":\\\"\\\"}\",\"is_aiavatar_ignore_phonemes\":true,\"is_aiavatar\":true,\"is_vip\":true,\"is_business\":true,\"reading_speed\":1.3,\"tone_avatar_url\":\"https://p16-vimo-sg.ibyteimg.com/obj/tos-alisg-i-aifo7olm7m-sg/9d1a6255770a464eb4fd7cadf76226c8\"}",
+          "vip_name": "",
+          "biz_extra": "{\"reading_speed\":1.3,\"is_aiavatar_ignore_phonemes\":true,\"tone_avatar_url\":{\"url\":\"https://p16-vimo-sg.ibyteimg.com/obj/tos-alisg-i-aifo7olm7m-sg/9d1a6255770a464eb4fd7cadf76226c8\",\"uri\":\"tos-alisg-i-aifo7olm7m-sg/9d1a6255770a464eb4fd7cadf76226c8\"},\"is_boost_coldstart\":true,\"tonetype\":\"{\\\"platform\\\":\\\"11labs\\\",\\\"name\\\":\\\"\\\",\\\"collaborator_name\\\":\\\"\\\",\\\"voice_type\\\":\\\"9EE00wK5qV6tPtpQIxvy\\\",\\\"rate\\\":\\\"24000\\\",\\\"tts_voice\\\":\\\"\\\"}\",\"is_aiavatar\":true}"
+        },
+        "author": {
+          "name": "CapCut-采买",
+          "avatar_url": "https://sf16-passport-sg.ibytedtos.com/obj/user-avatar-alisg/78e2048bf8783921eaae02afff20252e.png",
+          "source": 1,
+          "uid": "7477799919869346833"
+        },
+        "timbre": {
+          "voice_type": "",
+          "voice": "",
+          "voice_rate": 24000
+        },
+        "template": null
+      },
+      {
+        "common_attr": {
+          "id": "7491608014181372417",
+          "effect_id": "7491608014181372417",
+          "effect_type": 11,
+          "source": 1,
+          "title": "Ly Nam",
+          "description": "",
+          "cover_url": {
+            "small": "https://p16-heycan-image-sign-sg.ibyteimg.com/tos-alisg-i-fhsjxsyzit-sg/be43b528290247a2b1d20d932789210c~tplv-fhsjxsyzit-image.image?lk3s=43402efa&x-expires=1807082569&x-signature=EWPcpb8DaOtN8oKatzOr%2BEfe9Pk%3D",
+            "static_img": "https://p16-heycan-image-sign-sg.ibyteimg.com/tos-alisg-i-fhsjxsyzit-sg/be43b528290247a2b1d20d932789210c~tplv-fhsjxsyzit-resize:0:0.png?lk3s=43402efa&x-expires=1807082569&x-signature=bE7v9sUWvtvV4%2BQQPZ%2Bhu%2FpdanA%3D"
+          },
+          "item_urls": null,
+          "md5": "f554735f65a98cc4da17a1c53ef6a886",
+          "has_favorited": false,
+          "third_resource_id": 7491608014181373000,
+          "third_resource_id_str": "7491608014181372417",
+          "create_time": 1744275970,
+          "statistics": {
+            "favorite_count": 0
+          },
+          "is_original": true,
+          "status": 102,
+          "review_info": {
+            "review_status": 1,
+            "review_code_list": [],
+            "extra_reason": "",
+            "review_reason_list": []
+          },
+          "aspect_ratio": 1,
+          "download_info": {
+            "url": "",
+            "format": ""
+          },
+          "publish_source": "loki",
+          "is_business": true,
+          "business_scope": [
+            "UNLIMITED"
+          ],
+          "business_info": {
+            "json_str": "{\"is_vip\":true,\"is_expired\":false,\"paid_type\":\"subscribe\",\"commercial_strategy\":{\"resource_export\":{\"paid_strategy_list\":[{\"paid_mode\":\"subscribe\",\"subscribe_package\":\"Pro\"}]}}}",
+            "sign": ""
+          },
+          "extra": "{\"is_boost_coldstart\":true,\"reading_speed\":1.3,\"tone_avatar_url\":\"https://p16-vimo-sg.ibyteimg.com/obj/tos-alisg-i-aifo7olm7m-sg/be2a17648fbf42969666294109fc0a4b\",\"is_business\":true,\"is_aiavatar_ignore_phonemes\":true,\"tonetype\":\"{\\\"platform\\\":\\\"11labs\\\",\\\"name\\\":\\\"\\\",\\\"collaborator_name\\\":\\\"\\\",\\\"voice_type\\\":\\\"7hsfEc7irDn6E8br0qfw\\\",\\\"rate\\\":\\\"24000\\\",\\\"tts_voice\\\":\\\"\\\"}\",\"is_aiavatar\":true,\"is_vip\":true}",
+          "vip_name": "",
+          "biz_extra": "{\"tone_avatar_url\":{\"uri\":\"tos-alisg-i-aifo7olm7m-sg/be2a17648fbf42969666294109fc0a4b\",\"url\":\"https://p16-vimo-sg.ibyteimg.com/obj/tos-alisg-i-aifo7olm7m-sg/be2a17648fbf42969666294109fc0a4b\"},\"is_boost_coldstart\":true,\"tonetype\":\"{\\\"platform\\\":\\\"11labs\\\",\\\"name\\\":\\\"\\\",\\\"collaborator_name\\\":\\\"\\\",\\\"voice_type\\\":\\\"7hsfEc7irDn6E8br0qfw\\\",\\\"rate\\\":\\\"24000\\\",\\\"tts_voice\\\":\\\"\\\"}\",\"is_aiavatar\":true,\"reading_speed\":1.3,\"is_aiavatar_ignore_phonemes\":true}"
+        },
+        "author": {
+          "name": "CapCut-采买",
+          "avatar_url": "https://sf16-passport-sg.ibytedtos.com/obj/user-avatar-alisg/78e2048bf8783921eaae02afff20252e.png",
+          "source": 1,
+          "uid": "7477799919869346833"
+        },
+        "timbre": {
+          "voice_type": "",
+          "voice": "",
+          "voice_rate": 24000
+        },
+        "template": null
+      },
+      {
+        "common_attr": {
+          "id": "7491608109043945985",
+          "effect_id": "7491608109043945985",
+          "effect_type": 11,
+          "source": 1,
+          "title": "Duy Bắc",
+          "description": "",
+          "cover_url": {
+            "small": "https://p16-heycan-image-sign-sg.ibyteimg.com/tos-alisg-i-fhsjxsyzit-sg/6ce1c5145e8f4466843eee5c7e97952b~tplv-fhsjxsyzit-image.image?lk3s=43402efa&x-expires=1807082569&x-signature=WPebagoBS6h6WsrLAjKbTmAu8Qw%3D",
+            "static_img": "https://p16-heycan-image-sign-sg.ibyteimg.com/tos-alisg-i-fhsjxsyzit-sg/6ce1c5145e8f4466843eee5c7e97952b~tplv-fhsjxsyzit-resize:0:0.png?lk3s=43402efa&x-expires=1807082569&x-signature=88ik3hqiLGwZzVFvUTr80nEJfZ0%3D"
+          },
+          "item_urls": null,
+          "md5": "f554735f65a98cc4da17a1c53ef6a886",
+          "has_favorited": false,
+          "third_resource_id": 7491608109043946000,
+          "third_resource_id_str": "7491608109043945985",
+          "create_time": 1744275970,
+          "statistics": {
+            "favorite_count": 0
+          },
+          "is_original": true,
+          "status": 102,
+          "review_info": {
+            "review_status": 1,
+            "review_code_list": [],
+            "extra_reason": "",
+            "review_reason_list": []
+          },
+          "aspect_ratio": 1,
+          "download_info": {
+            "url": "",
+            "format": ""
+          },
+          "publish_source": "loki",
+          "is_business": true,
+          "business_scope": [
+            "UNLIMITED"
+          ],
+          "business_info": {
+            "json_str": "{\"is_vip\":true,\"is_expired\":false,\"paid_type\":\"subscribe\",\"commercial_strategy\":{\"resource_export\":{\"paid_strategy_list\":[{\"paid_mode\":\"subscribe\",\"subscribe_package\":\"Pro\"}]}}}",
+            "sign": ""
+          },
+          "extra": "{\"is_aiavatar\":true,\"is_vip\":true,\"is_business\":true,\"tone_avatar_url\":\"https://p16-vimo-sg.ibyteimg.com/obj/tos-alisg-i-aifo7olm7m-sg/32e03d8a6e1e46f381c15c0bc4b4109f\",\"is_boost_coldstart\":true,\"tonetype\":\"{\\\"platform\\\":\\\"11labs\\\",\\\"name\\\":\\\"\\\",\\\"collaborator_name\\\":\\\"\\\",\\\"voice_type\\\":\\\"1d5Bb0SMBPB10Gx6iQeu\\\",\\\"rate\\\":\\\"24000\\\",\\\"tts_voice\\\":\\\"\\\"}\",\"reading_speed\":1.3,\"is_aiavatar_ignore_phonemes\":true}",
+          "vip_name": "",
+          "biz_extra": "{\"is_boost_coldstart\":true,\"tonetype\":\"{\\\"platform\\\":\\\"11labs\\\",\\\"name\\\":\\\"\\\",\\\"collaborator_name\\\":\\\"\\\",\\\"voice_type\\\":\\\"1d5Bb0SMBPB10Gx6iQeu\\\",\\\"rate\\\":\\\"24000\\\",\\\"tts_voice\\\":\\\"\\\"}\",\"is_aiavatar\":true,\"reading_speed\":1.3,\"is_aiavatar_ignore_phonemes\":true,\"tone_avatar_url\":{\"uri\":\"tos-alisg-i-aifo7olm7m-sg/32e03d8a6e1e46f381c15c0bc4b4109f\",\"url\":\"https://p16-vimo-sg.ibyteimg.com/obj/tos-alisg-i-aifo7olm7m-sg/32e03d8a6e1e46f381c15c0bc4b4109f\"}}"
+        },
+        "author": {
+          "name": "CapCut-采买",
+          "avatar_url": "https://sf16-passport-sg.ibytedtos.com/obj/user-avatar-alisg/78e2048bf8783921eaae02afff20252e.png",
+          "source": 1,
+          "uid": "7477799919869346833"
+        },
+        "timbre": {
+          "voice_type": "",
+          "voice": "",
+          "voice_rate": 24000
+        },
+        "template": null
+      },
+      {
+        "common_attr": {
+          "id": "7491607926562361857",
+          "effect_id": "7491607926562361857",
+          "effect_type": 11,
+          "source": 1,
+          "title": "Hà Nữ",
+          "description": "",
+          "cover_url": {
+            "small": "https://p16-heycan-image-sign-sg.ibyteimg.com/tos-alisg-i-fhsjxsyzit-sg/1e512e9610324a678beff6d7604469ba~tplv-fhsjxsyzit-image.image?lk3s=43402efa&x-expires=1807082569&x-signature=OaZv5F4lqSVV9urW4IMT8g5wq1w%3D",
+            "static_img": "https://p16-heycan-image-sign-sg.ibyteimg.com/tos-alisg-i-fhsjxsyzit-sg/1e512e9610324a678beff6d7604469ba~tplv-fhsjxsyzit-resize:0:0.png?lk3s=43402efa&x-expires=1807082569&x-signature=tMH51MDSbNSiomNYUQhiYRSP9GU%3D"
+          },
+          "item_urls": null,
+          "md5": "f554735f65a98cc4da17a1c53ef6a886",
+          "has_favorited": false,
+          "third_resource_id": 7491607926562362000,
+          "third_resource_id_str": "7491607926562361857",
+          "create_time": 1744275970,
+          "statistics": {
+            "favorite_count": 0
+          },
+          "is_original": true,
+          "status": 102,
+          "review_info": {
+            "review_status": 1,
+            "review_code_list": [],
+            "extra_reason": "",
+            "review_reason_list": []
+          },
+          "aspect_ratio": 1,
+          "download_info": {
+            "url": "",
+            "format": ""
+          },
+          "publish_source": "loki",
+          "is_business": true,
+          "business_scope": [
+            "UNLIMITED"
+          ],
+          "business_info": {
+            "json_str": "{\"is_vip\":true,\"is_expired\":false,\"paid_type\":\"subscribe\",\"commercial_strategy\":{\"resource_export\":{\"paid_strategy_list\":[{\"paid_mode\":\"subscribe\",\"subscribe_package\":\"Pro\"}]}}}",
+            "sign": ""
+          },
+          "extra": "{\"is_business\":true,\"is_boost_coldstart\":true,\"reading_speed\":1.3,\"is_aiavatar_ignore_phonemes\":true,\"tonetype\":\"{\\\"platform\\\":\\\"11labs\\\",\\\"name\\\":\\\"\\\",\\\"collaborator_name\\\":\\\"\\\",\\\"voice_type\\\":\\\"pGapy9MNHCukzJtjavF0\\\",\\\"rate\\\":\\\"24000\\\",\\\"tts_voice\\\":\\\"\\\"}\",\"is_aiavatar\":true,\"tone_avatar_url\":\"https://p16-vimo-sg.ibyteimg.com/obj/tos-alisg-i-aifo7olm7m-sg/a4e42d632a694aafbbf92a3aafe4b167\",\"is_vip\":true}",
+          "vip_name": "",
+          "biz_extra": "{\"tone_avatar_url\":{\"url\":\"https://p16-vimo-sg.ibyteimg.com/obj/tos-alisg-i-aifo7olm7m-sg/a4e42d632a694aafbbf92a3aafe4b167\",\"uri\":\"tos-alisg-i-aifo7olm7m-sg/a4e42d632a694aafbbf92a3aafe4b167\"},\"is_boost_coldstart\":true,\"tonetype\":\"{\\\"platform\\\":\\\"11labs\\\",\\\"name\\\":\\\"\\\",\\\"collaborator_name\\\":\\\"\\\",\\\"voice_type\\\":\\\"pGapy9MNHCukzJtjavF0\\\",\\\"rate\\\":\\\"24000\\\",\\\"tts_voice\\\":\\\"\\\"}\",\"is_aiavatar\":true,\"reading_speed\":1.3,\"is_aiavatar_ignore_phonemes\":true}"
+        },
+        "author": {
+          "name": "CapCut-采买",
+          "avatar_url": "https://sf16-passport-sg.ibytedtos.com/obj/user-avatar-alisg/78e2048bf8783921eaae02afff20252e.png",
+          "source": 1,
+          "uid": "7477799919869346833"
+        },
+        "timbre": {
+          "voice_type": "",
+          "voice": "",
+          "voice_rate": 24000
+        },
+        "template": null
+      },
+      {
+        "common_attr": {
+          "id": "7491607853086544400",
+          "effect_id": "7491607853086544400",
+          "effect_type": 11,
+          "source": 1,
+          "title": "Sài Nữ",
+          "description": "",
+          "cover_url": {
+            "small": "https://p16-heycan-image-sign-sg.ibyteimg.com/tos-alisg-i-fhsjxsyzit-sg/6c44eb1c2dc341c2b40e0e9ac1bdc59b~tplv-fhsjxsyzit-image.image?lk3s=43402efa&x-expires=1807082569&x-signature=1OUCuBC07I9a3N%2BFWkEyXydQ%2F8o%3D",
+            "static_img": "https://p16-heycan-image-sign-sg.ibyteimg.com/tos-alisg-i-fhsjxsyzit-sg/6c44eb1c2dc341c2b40e0e9ac1bdc59b~tplv-fhsjxsyzit-resize:0:0.png?lk3s=43402efa&x-expires=1807082569&x-signature=NzWwRu3ObtvzGmPaVX7qvAscQ%2F4%3D"
+          },
+          "item_urls": null,
+          "md5": "f554735f65a98cc4da17a1c53ef6a886",
+          "has_favorited": false,
+          "third_resource_id": 7491607853086545000,
+          "third_resource_id_str": "7491607853086544400",
+          "create_time": 1744275970,
+          "statistics": {
+            "favorite_count": 0
+          },
+          "is_original": true,
+          "status": 102,
+          "review_info": {
+            "review_status": 1,
+            "review_code_list": [],
+            "extra_reason": "",
+            "review_reason_list": []
+          },
+          "aspect_ratio": 1,
+          "download_info": {
+            "url": "",
+            "format": ""
+          },
+          "publish_source": "loki",
+          "is_business": true,
+          "business_scope": [
+            "UNLIMITED"
+          ],
+          "business_info": {
+            "json_str": "{\"is_vip\":true,\"is_expired\":false,\"paid_type\":\"subscribe\",\"commercial_strategy\":{\"resource_export\":{\"paid_strategy_list\":[{\"paid_mode\":\"subscribe\",\"subscribe_package\":\"Pro\"}]}}}",
+            "sign": ""
+          },
+          "extra": "{\"is_vip\":true,\"is_business\":true,\"tonetype\":\"{\\\"platform\\\":\\\"11labs\\\",\\\"name\\\":\\\"\\\",\\\"collaborator_name\\\":\\\"\\\",\\\"voice_type\\\":\\\"xPEfmymXC4WdBxGMznS7\\\",\\\"rate\\\":\\\"24000\\\",\\\"tts_voice\\\":\\\"\\\"}\",\"reading_speed\":1.3,\"is_aiavatar\":true,\"is_boost_coldstart\":true,\"is_aiavatar_ignore_phonemes\":true,\"tone_avatar_url\":\"https://p16-vimo-sg.ibyteimg.com/obj/tos-alisg-i-aifo7olm7m-sg/88f47b8e1195415e8db9b1a362818e86\"}",
+          "vip_name": "",
+          "biz_extra": "{\"tone_avatar_url\":{\"uri\":\"tos-alisg-i-aifo7olm7m-sg/88f47b8e1195415e8db9b1a362818e86\",\"url\":\"https://p16-vimo-sg.ibyteimg.com/obj/tos-alisg-i-aifo7olm7m-sg/88f47b8e1195415e8db9b1a362818e86\"},\"is_boost_coldstart\":true,\"tonetype\":\"{\\\"platform\\\":\\\"11labs\\\",\\\"name\\\":\\\"\\\",\\\"collaborator_name\\\":\\\"\\\",\\\"voice_type\\\":\\\"xPEfmymXC4WdBxGMznS7\\\",\\\"rate\\\":\\\"24000\\\",\\\"tts_voice\\\":\\\"\\\"}\",\"is_aiavatar\":true,\"reading_speed\":1.3,\"is_aiavatar_ignore_phonemes\":true}"
+        },
+        "author": {
+          "name": "CapCut-采买",
+          "avatar_url": "https://sf16-passport-sg.ibytedtos.com/obj/user-avatar-alisg/78e2048bf8783921eaae02afff20252e.png",
+          "source": 1,
+          "uid": "7477799919869346833"
+        },
+        "timbre": {
+          "voice_type": "",
+          "voice": "",
+          "voice_rate": 24000
+        },
+        "template": null
+      },
+      {
+        "common_attr": {
+          "id": "7483736167565758992",
+          "effect_id": "7483736167565758992",
+          "effect_type": 11,
+          "source": 1,
+          "title": "Anh Dũng",
+          "description": "",
+          "cover_url": {
+            "small": "https://p16-heycan-image-sign-sg.ibyteimg.com/tos-alisg-i-fhsjxsyzit-sg/e8bdd5b7c9eb43b4b709fe92c2374ab4~tplv-fhsjxsyzit-image.image?lk3s=43402efa&x-expires=1807082569&x-signature=mW%2BSeFkrlLP3mBaznA57QEuxFko%3D",
+            "static_img": "https://p16-heycan-image-sign-sg.ibyteimg.com/tos-alisg-i-fhsjxsyzit-sg/e8bdd5b7c9eb43b4b709fe92c2374ab4~tplv-fhsjxsyzit-resize:0:0.png?lk3s=43402efa&x-expires=1807082569&x-signature=KL%2Fq857WW%2FrBDe8Zy5jbd49%2BL9E%3D"
+          },
+          "item_urls": null,
+          "md5": "f554735f65a98cc4da17a1c53ef6a886",
+          "has_favorited": false,
+          "third_resource_id": 7483736167565759000,
+          "third_resource_id_str": "7483736167565758992",
+          "create_time": 1742443158,
+          "statistics": {
+            "favorite_count": 0
+          },
+          "is_original": true,
+          "status": 102,
+          "review_info": {
+            "review_status": 1,
+            "review_code_list": [],
+            "extra_reason": null,
+            "review_reason_list": []
+          },
+          "aspect_ratio": 1,
+          "download_info": {
+            "url": "",
+            "format": ""
+          },
+          "publish_source": "loki",
+          "is_business": false,
+          "business_info": {
+            "json_str": "{\"is_vip\":true,\"is_expired\":false,\"paid_type\":\"subscribe\",\"commercial_strategy\":{\"resource_export\":{\"paid_strategy_list\":[{\"paid_mode\":\"subscribe\",\"subscribe_package\":\"Pro\"}]}}}",
+            "sign": ""
+          },
+          "extra": "{\"tonetype\":\"{\\\"name\\\":\\\"\\\",\\\"collaborator_name\\\":\\\"\\\",\\\"voice_type\\\":\\\"BV560_streaming\\\",\\\"rate\\\":\\\"24000\\\",\\\"tts_voice\\\":\\\"\\\"}\",\"reading_speed\":1.3,\"is_vip\":true,\"is_business\":false,\"is_aiavatar\":true,\"tone_avatar_url\":\"https://p16-vimo-sg.ibyteimg.com/obj/tos-alisg-i-aifo7olm7m-sg/bcf23f36c125411ba976e068cd10b746\",\"is_aiavatar_ignore_phonemes\":true,\"is_boost_coldstart\":true}",
+          "vip_name": "",
+          "biz_extra": "{\"is_aiavatar\":true,\"reading_speed\":1.3,\"is_aiavatar_ignore_phonemes\":true,\"tone_avatar_url\":{\"uri\":\"tos-alisg-i-aifo7olm7m-sg/bcf23f36c125411ba976e068cd10b746\",\"url\":\"https://p16-vimo-sg.ibyteimg.com/obj/tos-alisg-i-aifo7olm7m-sg/bcf23f36c125411ba976e068cd10b746\"},\"is_boost_coldstart\":true,\"tonetype\":\"{\\\"name\\\":\\\"\\\",\\\"collaborator_name\\\":\\\"\\\",\\\"voice_type\\\":\\\"BV560_streaming\\\",\\\"rate\\\":\\\"24000\\\",\\\"tts_voice\\\":\\\"\\\"}\"}"
+        },
+        "author": {
+          "name": "heycan595",
+          "avatar_url": "https://sf16-passport-sg.ibytedtos.com/img/user-avatar-alisg/7b514dd090c7675da20b77097211cf41~300x300.image",
+          "source": 1,
+          "uid": "7221541299555369986"
+        },
+        "timbre": {
+          "voice_type": "",
+          "voice": "",
+          "voice_rate": 24000
+        },
+        "template": null
+      },
+      {
+        "common_attr": {
+          "id": "7483736254694035984",
+          "effect_id": "7483736254694035984",
+          "effect_type": 11,
+          "source": 1,
+          "title": "Chí Mai",
+          "description": "",
+          "cover_url": {
+            "small": "https://p16-heycan-image-sign-sg.ibyteimg.com/tos-alisg-i-fhsjxsyzit-sg/5b88bad0274d4b8bb5d5d15592ddf7c9~tplv-fhsjxsyzit-image.image?lk3s=43402efa&x-expires=1807082569&x-signature=a8WH5%2B%2BEd%2BfXg7Uh5M3MHHL24DY%3D",
+            "static_img": "https://p16-heycan-image-sign-sg.ibyteimg.com/tos-alisg-i-fhsjxsyzit-sg/5b88bad0274d4b8bb5d5d15592ddf7c9~tplv-fhsjxsyzit-resize:0:0.png?lk3s=43402efa&x-expires=1807082569&x-signature=bqN1i%2BEGLw4MsZ3kWJVyentpoOI%3D"
+          },
+          "item_urls": null,
+          "md5": "f554735f65a98cc4da17a1c53ef6a886",
+          "has_favorited": false,
+          "third_resource_id": 7483736254694036000,
+          "third_resource_id_str": "7483736254694035984",
+          "create_time": 1742443158,
+          "statistics": {
+            "favorite_count": 0
+          },
+          "is_original": true,
+          "status": 102,
+          "review_info": {
+            "review_status": 1,
+            "review_code_list": [],
+            "extra_reason": null,
+            "review_reason_list": []
+          },
+          "aspect_ratio": 1,
+          "download_info": {
+            "url": "",
+            "format": ""
+          },
+          "publish_source": "loki",
+          "is_business": false,
+          "business_info": {
+            "json_str": "{\"is_vip\":true,\"is_expired\":false,\"paid_type\":\"subscribe\",\"commercial_strategy\":{\"resource_export\":{\"paid_strategy_list\":[{\"paid_mode\":\"subscribe\",\"subscribe_package\":\"Pro\"}]}}}",
+            "sign": ""
+          },
+          "extra": "{\"tone_avatar_url\":\"https://p16-vimo-sg.ibyteimg.com/obj/tos-alisg-i-aifo7olm7m-sg/d37f1a216ebf49fb96f5831f7a27561f\",\"reading_speed\":1.3,\"is_boost_coldstart\":true,\"is_vip\":true,\"is_business\":false,\"is_aiavatar\":true,\"tonetype\":\"{\\\"name\\\":\\\"\\\",\\\"collaborator_name\\\":\\\"\\\",\\\"voice_type\\\":\\\"BV562_streaming\\\",\\\"rate\\\":\\\"24000\\\",\\\"tts_voice\\\":\\\"\\\"}\",\"is_aiavatar_ignore_phonemes\":true}",
+          "vip_name": "",
+          "biz_extra": "{\"tonetype\":\"{\\\"name\\\":\\\"\\\",\\\"collaborator_name\\\":\\\"\\\",\\\"voice_type\\\":\\\"BV562_streaming\\\",\\\"rate\\\":\\\"24000\\\",\\\"tts_voice\\\":\\\"\\\"}\",\"is_aiavatar\":true,\"reading_speed\":1.3,\"is_aiavatar_ignore_phonemes\":true,\"tone_avatar_url\":{\"uri\":\"tos-alisg-i-aifo7olm7m-sg/d37f1a216ebf49fb96f5831f7a27561f\",\"url\":\"https://p16-vimo-sg.ibyteimg.com/obj/tos-alisg-i-aifo7olm7m-sg/d37f1a216ebf49fb96f5831f7a27561f\"},\"is_boost_coldstart\":true}"
+        },
+        "author": {
+          "name": "heycan595",
+          "avatar_url": "https://sf16-passport-sg.ibytedtos.com/img/user-avatar-alisg/7b514dd090c7675da20b77097211cf41~300x300.image",
+          "source": 1,
+          "uid": "7221541299555369986"
+        },
+        "timbre": {
+          "voice_type": "",
+          "voice": "",
+          "voice_rate": 24000
+        },
+        "template": null
+      },
+      {
+        "common_attr": {
+          "id": "7264854897953083905",
+          "effect_id": "7264854897953083905",
+          "effect_type": 11,
+          "source": 1,
+          "title": "Giọng nữ phổ thông",
+          "description": "",
+          "cover_url": {
+            "small": "https://p16-heycan-image-sign-sg.ibyteimg.com/tos-alisg-i-fhsjxsyzit-sg/ab8fec4c912d4972ad864d441603f0ce~tplv-fhsjxsyzit-image.image?lk3s=43402efa&x-expires=1807082569&x-signature=RaI%2BP%2Bxw8ZBjRnMgjQHFKCgquIk%3D",
+            "static_img": "https://p16-heycan-image-sign-sg.ibyteimg.com/tos-alisg-i-fhsjxsyzit-sg/ab8fec4c912d4972ad864d441603f0ce~tplv-fhsjxsyzit-resize:0:0.png?lk3s=43402efa&x-expires=1807082569&x-signature=uyi817TO2Gxebm0vExrvCIyLInU%3D"
+          },
+          "item_urls": null,
+          "md5": "8dd8889045e6c065177df791ddb3dfb8",
+          "has_favorited": false,
+          "third_resource_id": 7264854897953084000,
+          "third_resource_id_str": "7264854897953083905",
+          "create_time": 1691481145,
+          "statistics": {
+            "favorite_count": 0
+          },
+          "is_original": true,
+          "status": 102,
+          "review_info": {
+            "review_status": 1,
+            "review_code_list": [],
+            "extra_reason": null,
+            "review_reason_list": []
+          },
+          "aspect_ratio": 1,
+          "download_info": {
+            "url": "",
+            "format": ""
+          },
+          "publish_source": "loki",
+          "is_business": true,
+          "business_scope": [
+            "UNLIMITED"
+          ],
+          "business_info": {
+            "json_str": "{\"is_vip\":true,\"is_expired\":false,\"paid_type\":\"subscribe\",\"commercial_strategy\":{\"resource_export\":{\"paid_strategy_list\":[{\"paid_mode\":\"subscribe\",\"subscribe_package\":\"Pro\"}]}}}",
+            "sign": ""
+          },
+          "extra": "{\"transparent_icon_frame\":\"https://p16-vimo-sg.ibyteimg.com/tos-alisg-i-aifo7olm7m-sg/70a8dc2b315f4ca4b8dcc69ad7f46461\",\"is_vip\":true,\"default_audition_text\":\"Bạn đang sử dụng tính năng chuyển văn bản thành lời nói. Hãy chọn một giọng nói bạn thích.\",\"voice_alias_name\":\"Giọng nữ phổ thông\",\"reading_speed\":1.3,\"is_aiavatar\":true,\"is_business\":true,\"voice_gender\":1,\"tone_avatar_url\":\"https://p16-vimo-sg.ibyteimg.com/tos-alisg-i-aifo7olm7m-sg/70551c3c622a44fe9b0daac336e41a53\",\"tonetype\":\"{\\\"name\\\":\\\"yuenantongyongnvsheng\\\",\\\"collaborator_name\\\":\\\"\\\",\\\"voice_type\\\":\\\"vi_female_huong\\\",\\\"rate\\\":\\\"24000\\\",\\\"tts_voice\\\":\\\"\\\"}\"}",
+          "sdk_extra": "{\"isEHEffect\":false,\"triggerJson\":null}",
+          "model_names": "",
+          "vip_name": "",
+          "biz_extra": "{\"voice_gender\":1,\"is_aiavatar\":true,\"voice_alias_name\":\"Giọng nữ phổ thông\",\"default_audition_text\":\"Bạn đang sử dụng tính năng chuyển văn bản thành lời nói. Hãy chọn một giọng nói bạn thích.\",\"tonetype\":\"{\\\"name\\\":\\\"yuenantongyongnvsheng\\\",\\\"collaborator_name\\\":\\\"\\\",\\\"voice_type\\\":\\\"vi_female_huong\\\",\\\"rate\\\":\\\"24000\\\",\\\"tts_voice\\\":\\\"\\\"}\",\"transparent_icon_frame\":{\"uri\":\"tos-alisg-i-aifo7olm7m-sg/70a8dc2b315f4ca4b8dcc69ad7f46461\",\"url\":\"https://p16-vimo-sg.ibyteimg.com/tos-alisg-i-aifo7olm7m-sg/70a8dc2b315f4ca4b8dcc69ad7f46461\"},\"tone_avatar_url\":{\"uri\":\"tos-alisg-i-aifo7olm7m-sg/70551c3c622a44fe9b0daac336e41a53\",\"url\":\"https://p16-vimo-sg.ibyteimg.com/tos-alisg-i-aifo7olm7m-sg/70551c3c622a44fe9b0daac336e41a53\"},\"reading_speed\":1.3}"
+        },
+        "author": {
+          "name": "heycan595",
+          "avatar_url": "https://sf16-passport-sg.ibytedtos.com/img/user-avatar-alisg/7b514dd090c7675da20b77097211cf41~300x300.image",
+          "source": 1,
+          "uid": "7221541299555369986"
+        },
+        "timbre": {
+          "voice_type": "",
+          "voice": "",
+          "voice_rate": 24000
+        },
+        "template": null
+      },
+      {
+        "common_attr": {
+          "id": "7252594014782755330",
+          "effect_id": "7252594014782755330",
+          "effect_type": 11,
+          "source": 1,
+          "title": "Nguồn nhỏ ngọt ngào",
+          "description": "",
+          "cover_url": {
+            "small": "https://p16-heycan-image-sign-sg.ibyteimg.com/tos-alisg-i-fhsjxsyzit-sg/3774de3e454641c0833b1baa94fa0343~tplv-fhsjxsyzit-image.image?lk3s=43402efa&x-expires=1807082569&x-signature=kJMEX0glv2vWchyQOD7f2hFqiNc%3D",
+            "static_img": "https://p16-heycan-image-sign-sg.ibyteimg.com/tos-alisg-i-fhsjxsyzit-sg/3774de3e454641c0833b1baa94fa0343~tplv-fhsjxsyzit-resize:0:0.png?lk3s=43402efa&x-expires=1807082569&x-signature=fqeQsE2NDgSQrQXT7S75WU%2FjM7E%3D"
+          },
+          "item_urls": null,
+          "md5": "8dd8889045e6c065177df791ddb3dfb8",
+          "has_favorited": false,
+          "third_resource_id": 7252594014782756000,
+          "third_resource_id_str": "7252594014782755330",
+          "create_time": 1688626216,
+          "statistics": {
+            "favorite_count": 0
+          },
+          "is_original": true,
+          "status": 102,
+          "review_info": {
+            "review_status": 1,
+            "review_code_list": [],
+            "extra_reason": null,
+            "review_reason_list": []
+          },
+          "aspect_ratio": 1,
+          "download_info": {
+            "url": "",
+            "format": ""
+          },
+          "publish_source": "loki",
+          "is_business": false,
+          "business_info": {
+            "json_str": "{\"is_vip\":true,\"is_expired\":false,\"paid_type\":\"subscribe\",\"commercial_strategy\":{\"resource_export\":{\"paid_strategy_list\":[{\"paid_mode\":\"subscribe\",\"subscribe_package\":\"Pro\"}]}}}",
+            "sign": ""
+          },
+          "extra": "{\"tone_avatar_url\":\"https://p16-vimo-sg.ibyteimg.com/tos-alisg-i-aifo7olm7m-sg/deb00534e69c4f52a7046909340c084c\",\"voice_gender\":1,\"voice_alias_name\":\"Nguồn nhỏ ngọt ngào\",\"is_vip\":true,\"is_business\":false,\"reading_speed\":1.3,\"default_audition_text\":\"Bạn đang sử dụng tính năng chuyển văn bản thành lời nói. Hãy chọn một giọng nói bạn thích.\",\"tonetype\":\"{\\\"name\\\":\\\" \\\",\\\"collaborator_name\\\":\\\"\\\",\\\"voice_type\\\":\\\"BV421_vivn_streaming\\\",\\\"rate\\\":\\\"24000\\\",\\\"tts_voice\\\":\\\"\\\"}\"}",
+          "sdk_extra": "{\"isEHEffect\":false,\"triggerJson\":null}",
+          "model_names": "",
+          "vip_name": "",
+          "biz_extra": "{\"default_audition_text\":\"Bạn đang sử dụng tính năng chuyển văn bản thành lời nói. Hãy chọn một giọng nói bạn thích.\",\"tonetype\":\"{\\\"name\\\":\\\" \\\",\\\"collaborator_name\\\":\\\"\\\",\\\"voice_type\\\":\\\"BV421_vivn_streaming\\\",\\\"rate\\\":\\\"24000\\\",\\\"tts_voice\\\":\\\"\\\"}\",\"tone_avatar_url\":{\"uri\":\"tos-alisg-i-aifo7olm7m-sg/deb00534e69c4f52a7046909340c084c\",\"url\":\"https://p16-vimo-sg.ibyteimg.com/tos-alisg-i-aifo7olm7m-sg/deb00534e69c4f52a7046909340c084c\"},\"reading_speed\":1.3,\"voice_gender\":1,\"voice_alias_name\":\"Nguồn nhỏ ngọt ngào\"}"
+        },
+        "author": {
+          "name": "heycan595",
+          "avatar_url": "https://sf16-passport-sg.ibytedtos.com/img/user-avatar-alisg/7b514dd090c7675da20b77097211cf41~300x300.image",
+          "source": 1,
+          "uid": "7221541299555369986"
+        },
+        "timbre": {
+          "voice_type": "",
+          "voice": "",
+          "voice_rate": 24000
+        },
+        "template": null
+      },
+      {
+        "common_attr": {
+          "id": "7102355803792740865",
+          "effect_id": "7102355803792740865",
+          "effect_type": 11,
+          "source": 1,
+          "title": "Giọng nam tự tin",
+          "description": "",
+          "cover_url": {
+            "small": "https://p16-heycan-image-sign-sg.ibyteimg.com/tos-alisg-i-fhsjxsyzit-sg/39a9625d64314f8082d1bbbc0aad089e~tplv-fhsjxsyzit-image.image?lk3s=43402efa&x-expires=1807082569&x-signature=boPE8x5DP9Iz0jjjCQ0QDvAULwo%3D",
+            "static_img": "https://p16-heycan-image-sign-sg.ibyteimg.com/tos-alisg-i-fhsjxsyzit-sg/39a9625d64314f8082d1bbbc0aad089e~tplv-fhsjxsyzit-resize:0:0.png?lk3s=43402efa&x-expires=1807082569&x-signature=4wPZ5i%2FPOu%2BZRbSvnKDB7y0wfig%3D"
+          },
+          "item_urls": null,
+          "md5": "8dd8889045e6c065177df791ddb3dfb8",
+          "has_favorited": false,
+          "third_resource_id": 7102355803792741000,
+          "third_resource_id_str": "7102355803792740865",
+          "create_time": 1654055181,
+          "statistics": {
+            "favorite_count": 0
+          },
+          "is_original": true,
+          "status": 102,
+          "review_info": {
+            "review_status": 1,
+            "review_code_list": [],
+            "extra_reason": null,
+            "review_reason_list": []
+          },
+          "aspect_ratio": 1,
+          "download_info": {
+            "url": "",
+            "format": ""
+          },
+          "publish_source": "loki",
+          "is_business": false,
+          "business_info": {
+            "json_str": "{\"is_vip\":false,\"is_expired\":false,\"paid_type\":\"free\",\"commercial_strategy\":{\"resource_export\":{\"paid_strategy_list\":[{\"paid_mode\":\"free\"}]}}}",
+            "sign": ""
+          },
+          "extra": "{\"voice_alias_name\":\"Tin\\\"\",\"is_business\":false,\"is_vip\":false,\"tone_avatar_url\":\"https://p16-vimo-sg.ibyteimg.com/tos-alisg-i-aifo7olm7m-sg/10b4dfbbba5c4935b427ae20753fbdf3\",\"reading_speed\":1.3,\"voice_gender\":0,\"default_audition_text\":\"Bạn đang sử dụng tính năng chuyển văn bản thành lời nói. Hãy chọn một giọng nói bạn thích.\",\"tonetype\":\"{\\\"name\\\":\\\"\\\",\\\"collaborator_name\\\":\\\"\\\",\\\"voice_type\\\":\\\"BV075_streaming\\\",\\\"rate\\\":\\\"24000\\\",\\\"tts_voice\\\":\\\"\\\"}\"}",
+          "vip_name": "",
+          "biz_extra": "{\"default_audition_text\":\"Bạn đang sử dụng tính năng chuyển văn bản thành lời nói. Hãy chọn một giọng nói bạn thích.\",\"tonetype\":\"{\\\"name\\\":\\\"\\\",\\\"collaborator_name\\\":\\\"\\\",\\\"voice_type\\\":\\\"BV075_streaming\\\",\\\"rate\\\":\\\"24000\\\",\\\"tts_voice\\\":\\\"\\\"}\",\"tone_avatar_url\":{\"url\":\"https://p16-vimo-sg.ibyteimg.com/tos-alisg-i-aifo7olm7m-sg/10b4dfbbba5c4935b427ae20753fbdf3\",\"uri\":\"tos-alisg-i-aifo7olm7m-sg/10b4dfbbba5c4935b427ae20753fbdf3\"},\"reading_speed\":1.3,\"voice_gender\":0,\"voice_alias_name\":\"Tin\\\"\"}"
+        },
+        "author": {
+          "name": "heycan595",
+          "avatar_url": "https://sf16-passport-sg.ibytedtos.com/img/user-avatar-alisg/7b514dd090c7675da20b77097211cf41~300x300.image",
+          "source": 1,
+          "uid": "7221541299555369986"
+        },
+        "timbre": {
+          "voice_type": "",
+          "voice": "",
+          "voice_rate": 24000
+        },
+        "template": null
+      },
+      {
+        "common_attr": {
+          "id": "7102355709945188865",
+          "effect_id": "7102355709945188865",
+          "effect_type": 11,
+          "source": 1,
+          "title": "Giọng nữ dễ thương",
+          "description": "",
+          "cover_url": {
+            "small": "https://p16-heycan-image-sign-sg.ibyteimg.com/tos-alisg-i-fhsjxsyzit-sg/3f979576f4244f078d55eda9946b88c2~tplv-fhsjxsyzit-image.image?lk3s=43402efa&x-expires=1807082569&x-signature=phXBzH1zIgDONOQjTHiyO3DfUKE%3D",
+            "static_img": "https://p16-heycan-image-sign-sg.ibyteimg.com/tos-alisg-i-fhsjxsyzit-sg/3f979576f4244f078d55eda9946b88c2~tplv-fhsjxsyzit-resize:0:0.png?lk3s=43402efa&x-expires=1807082569&x-signature=ULZLMHYBCS5QawLZmYJKTeck5E8%3D"
+          },
+          "item_urls": null,
+          "md5": "8dd8889045e6c065177df791ddb3dfb8",
+          "has_favorited": false,
+          "third_resource_id": 7102355709945189000,
+          "third_resource_id_str": "7102355709945188865",
+          "create_time": 1654055181,
+          "statistics": {
+            "favorite_count": 0
+          },
+          "is_original": true,
+          "status": 102,
+          "review_info": {
+            "review_status": 1,
+            "review_code_list": [],
+            "extra_reason": null,
+            "review_reason_list": []
+          },
+          "aspect_ratio": 1,
+          "download_info": {
+            "url": "",
+            "format": ""
+          },
+          "publish_source": "loki",
+          "is_business": false,
+          "business_info": {
+            "json_str": "{\"is_vip\":false,\"is_expired\":false,\"paid_type\":\"free\",\"commercial_strategy\":{\"resource_export\":{\"paid_strategy_list\":[{\"paid_mode\":\"free\"}]}}}",
+            "sign": ""
+          },
+          "extra": "{\"reading_speed\":1.3,\"is_business\":false,\"tone_avatar_url\":\"https://p16-vimo-sg.ibyteimg.com/tos-alisg-i-aifo7olm7m-sg/4f44f47effda4df79fb309d7ec566205\",\"tonetype\":\"{\\\"name\\\":\\\"\\\",\\\"collaborator_name\\\":\\\"\\\",\\\"voice_type\\\":\\\"BV074_streaming\\\",\\\"rate\\\":\\\"24000\\\",\\\"tts_voice\\\":\\\"\\\"}\",\"is_vip\":false,\"voice_gender\":1,\"voice_alias_name\":\"Ngôn\\\"\",\"default_audition_text\":\"Bạn đang sử dụng tính năng chuyển văn bản thành lời nói. Hãy chọn một giọng nói bạn thích.\"}",
+          "vip_name": "",
+          "biz_extra": "{\"reading_speed\":1.3,\"voice_gender\":1,\"voice_alias_name\":\"Ngôn\\\"\",\"default_audition_text\":\"Bạn đang sử dụng tính năng chuyển văn bản thành lời nói. Hãy chọn một giọng nói bạn thích.\",\"tone_avatar_url\":{\"uri\":\"tos-alisg-i-aifo7olm7m-sg/4f44f47effda4df79fb309d7ec566205\",\"url\":\"https://p16-vimo-sg.ibyteimg.com/tos-alisg-i-aifo7olm7m-sg/4f44f47effda4df79fb309d7ec566205\"},\"tonetype\":\"{\\\"name\\\":\\\"\\\",\\\"collaborator_name\\\":\\\"\\\",\\\"voice_type\\\":\\\"BV074_streaming\\\",\\\"rate\\\":\\\"24000\\\",\\\"tts_voice\\\":\\\"\\\"}\"}"
+        },
+        "author": {
+          "name": "heycan595",
+          "avatar_url": "https://sf16-passport-sg.ibytedtos.com/img/user-avatar-alisg/7b514dd090c7675da20b77097211cf41~300x300.image",
+          "source": 1,
+          "uid": "7221541299555369986"
+        },
+        "timbre": {
+          "voice_type": "",
+          "voice": "",
+          "voice_rate": 24000
+        },
+        "template": null
+      }
+    ],
+    "version_code": "527",
+    "request_id": "20260407152249EE56F888CF69AA846024",
+    "fail_reason": "",
+    "compress_data": false,
+    "specific_item_list": null
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "discoveredAt": 1776924543640,
+  "login": {},
+  "editor": {
+    "sourceUrls": [
+      "https://sf16-web-login-neutral.capcutstatic.com/obj/capcut-web-login-static/ies/lvweb/video_online/static/js/services-3015f62a.8cdceecc.js",
+      "https://sf16-web-login-neutral.capcutstatic.com/obj/capcut-web-login-static/ies/lvweb/video_online/static/js/services-1.03727ab2.js",
+      "https://sf16-web-login-neutral.capcutstatic.com/obj/capcut-web-login-static/ies/lvweb/video_online/static/js/vendors-5.0bd5a122.js",
+      "https://sf16-web-login-neutral.capcutstatic.com/obj/capcut-web-login-static/ies/lvweb/video_online/static/js/editor.d1d157a0.js"
+    ],
+    "webAppVersion": "5.8.0",
+    "versionName": "11.0.0",
+    "versionCode": "11.0.0",
+    "signRecipe": {
+      "prefix": "9e2c",
+      "suffix": "11ac",
+      "pathTailLength": 7,
+      "platformId": "7",
+      "signVersion": "1",
+      "tdidDefault": ""
+    },
+    "createTaskPath": "/lv/v2/intelligence/create",
+    "queryTaskPath": "/lv/v2/intelligence/query",
+    "workspacePath": "/cc/v1/workspace/get_user_workspaces",
+    "voiceListPath": "/artist/v1/effect/get_resources_by_category_id",
+    "homepageEffectListPath": "/artist/v1/homepage/get_effect_list",
+    "voicePanel": "tone",
+    "voicePanelSource": "heycan"
+  }
+}

@@ -1,0 +1,12 @@
+services:
+  api-tts-v1:
+    build: .
+    image: api-tts-v1:latest
+    container_name: api-tts-v1
+    env_file:
+      - .env
+    volumes:
+      - ./data:/app/data
+    ports:
+      - '127.0.0.1:8089:8080'
+    restart: always

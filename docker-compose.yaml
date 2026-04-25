@@ -1,12 +1,11 @@
 services:
   capcut-tts:
-    image: node:20
+    build: .
     container_name: capcut-tts
-    working_dir: /app
+    env_file:
+      - .env
     volumes:
-      - ./:/app
-      - /app/node_modules
+      - ./data:/app/data
     ports:
       - '8080:8080'
-    command: bash -c "npm install -g typescript tsc-alias && npm i && npm run build && npm run start"
-    restart: always
+    restart: unless-stopped

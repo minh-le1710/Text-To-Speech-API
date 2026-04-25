@@ -4,8 +4,9 @@ dist/
 
 # env
 .env
-capcut-session.json
-capcut-bundle-config.json
+data/
+platform-data/
+verification-samples/
 
 # vscode
 .vscode/
