@@ -1,0 +1,26 @@
+# Nodejs
+node_modules/
+dist/
+
+# env
+.env
+capcut-session.json
+capcut-bundle-config.json
+
+# vscode
+.vscode/
+
+# logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# TypeScript / coverage
+*.tsbuildinfo
+coverage/
+
+# tmp
+tmp
