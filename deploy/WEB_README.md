@@ -1,19 +1,18 @@
-# Web Integration Guide: CapCut TTS API
+# Web Backend Integration Guide
 
-This guide is for the web app that will call the Dockerized TTS backend.
+Tai lieu nay danh cho backend cua web khi goi sang API TTS dang chay tren
+server tai port `8089`.
 
 ## Base URL
 
-If the web app runs directly on the same Ubuntu host:
+Neu web backend va API TTS cung chay tren mot Ubuntu host:
 
 ```text
 http://127.0.0.1:8089
 ```
 
-If the web app runs in another Docker container, do not use `127.0.0.1`.
-Put both containers on the same Docker network and call the API by service/container name instead.
-
-Example:
+Neu web backend nam trong Docker container khac, khong dung `127.0.0.1`.
+Hay dat 2 container vao cung Docker network va goi theo service/container name:
 
 ```text
 http://api-tts-v1:8080
@@ -31,18 +30,21 @@ Expected:
 {"ok":true}
 ```
 
-## Recommended DOCX Flow
+## Luong Chinh Cho DOCX Dai
 
-Use the async job flow for books or long DOCX files.
+Khong nen de web cho mot request HTTP den khi sach xong, vi sach dai co the
+mat 30 phut den nhieu gio. Backend web nen dung async job flow:
 
-1. Web uploads DOCX to the TTS API.
-2. TTS API returns `jobId` immediately.
-3. Web polls job status.
-4. When `downloadReady=true`, web downloads the MP3.
+1. Web upload file DOCX sang API TTS.
+2. API TTS tra ngay `jobId`.
+3. Web luu `jobId` vao database cua web.
+4. Web poll `GET /v1/synthesize/docx/jobs/:jobId`.
+5. Khi `downloadReady=true`, web tai MP3 qua endpoint download.
 
-This avoids HTTP/browser/proxy timeout while the book is being synthesized.
+API TTS tu checkpoint tung chunk xuong disk va SQLite. Neu loi giua chung, co
+the resume job ma khong can chay lai tu dau.
 
-## Create DOCX Job
+## Tao DOCX Job
 
 ```http
 POST /v1/synthesize/docx/jobs
@@ -52,91 +54,13 @@ Content-Type: multipart/form-data
 Form fields:
 
 ```text
-file      required .docx file
+file      required, .docx file
 voice     optional, recommended: nguon nho ngot ngao
-filename  optional output name, without .mp3
+filename  optional, output name, co the co hoac khong co .mp3
 type      optional, default 0
 pitch     optional, default 10
 speed     optional, default 10
 volume    optional, default 10
-```
-
-## Vietnamese Voices
-
-For Vietnamese DOCX/audio generation, the web app should pass one of these
-values in the `voice` multipart field.
-
-Recommended default:
-
-```text
-nguon nho ngot ngao
-```
-
-Supported Vietnamese aliases currently configured:
-
-```text
-nguon nho ngot ngao
-nguon-nho-ngot-ngao
-nguon_nho_ngot_ngao
-nguồn nhỏ ngọt ngào
-
-chi mai
-chi-mai
-chi_mai
-
-giong nu pho thong
-giong-nu-pho-thong
-giong_nu_pho_thong
-giọng nữ phổ thông
-
-tin
-
-ngon
-ngôn
-```
-
-Direct CapCut voice ids also work:
-
-```text
-7252594014782755330  Nguon nho ngot ngao
-7483736254694035984  Chi Mai
-7264854897953083905  Giong nu pho thong
-7102355803792740865  Tin
-7102355709945188865  Ngon
-```
-
-Recommended web UI behavior:
-
-```text
-Show user-friendly labels in Vietnamese.
-Send the ASCII alias to the API to avoid encoding mistakes.
-```
-
-Example mapping:
-
-```json
-[
-  {
-    "label": "Nguồn nhỏ ngọt ngào",
-    "voice": "nguon nho ngot ngao"
-  },
-  {
-    "label": "Chí Mai",
-    "voice": "chi mai"
-  },
-  {
-    "label": "Giọng nữ phổ thông",
-    "voice": "giong nu pho thong"
-  },
-  {
-    "label": "Tin",
-    "voice": "tin"
-  },
-  {
-    "label": "Ngôn",
-    "voice": "ngon"
-  }
-]
 ```
 
 Curl example:
@@ -148,7 +72,7 @@ curl -sS -X POST "http://127.0.0.1:8089/v1/synthesize/docx/jobs" \
   -F "filename=book-output"
 ```
 
-Response: `202 Accepted`
+Response example:
 
 ```json
 {
@@ -167,9 +91,7 @@ Response: `202 Accepted`
 }
 ```
 
-Store `jobId` in the web database if the web app has one.
-
-## Poll Job Status
+## Lay Trang Thai Job
 
 ```http
 GET /v1/synthesize/docx/jobs/:jobId
@@ -184,23 +106,17 @@ curl "http://127.0.0.1:8089/v1/synthesize/docx/jobs/aba39c2cf931bdd77d9df37e4d8a
 Statuses:
 
 ```text
-pending    job accepted
-running    chunks are being synthesized
-completed  MP3 is ready
-failed     job failed, can usually be resumed
+pending    job da duoc tao, chua chay chunk dau tien
+running    dang tao audio chunk
+completed  MP3 da san sang
+failed     job loi, co the resume neu file input con trong data
 ```
 
-Recommended polling interval:
+Khuyen nghi poll moi `5-10 giay`. Khong nen poll lien tuc moi vai tram ms.
 
-```text
-5-10 seconds
-```
+## Tai MP3
 
-Do not poll every few hundred milliseconds.
-
-## Download MP3
-
-Only call this when `downloadReady=true`.
+Chi goi endpoint nay khi `downloadReady=true`.
 
 ```http
 GET /v1/synthesize/docx/jobs/:jobId/download
@@ -213,15 +129,16 @@ curl -o output.mp3 \
   "http://127.0.0.1:8089/v1/synthesize/docx/jobs/aba39c2cf931bdd77d9df37e4d8a975b/download"
 ```
 
-The response content type is:
+Response:
 
 ```text
-audio/mpeg
+Content-Type: audio/mpeg
+Content-Disposition: attachment; filename="book-output.mp3"
 ```
 
-## Resume Failed Job
+## Resume Job Loi
 
-If a job fails, the backend keeps completed chunks on disk.
+Neu job `failed`, web co the hien nut "Thu lai" va goi:
 
 ```http
 POST /v1/synthesize/docx/jobs/:jobId/resume
@@ -234,31 +151,77 @@ curl -X POST \
   "http://127.0.0.1:8089/v1/synthesize/docx/jobs/aba39c2cf931bdd77d9df37e4d8a975b/resume"
 ```
 
-The backend stores the uploaded DOCX inside the job folder, so resume usually does not require re-upload.
+API TTS da luu file DOCX goc trong job folder, nen resume thuong khong can
+upload lai file.
 
-## Error Handling
+## Danh Sach Giong Viet Nam
 
-Common responses:
+Backend web nen gui gia tri cot `voice` bang alias ASCII de tranh loi encoding
+khi submit multipart/form-data. UI co the hien label dep hon, nhung payload nen
+dung alias trong cot `voice`.
+
+Recommended default:
 
 ```text
-400 invalid file/body/job id
-404 job not found
-409 job exists but is not ready for download, or cannot resume
-502 CapCut/API synthesis failed
+nguon nho ngot ngao
 ```
 
-For `409` on download, keep polling status.
+| UI label | voice gui sang API | CapCut voice id |
+| --- | --- | --- |
+| Nguon nho ngot ngao | `nguon nho ngot ngao` | `7252594014782755330` |
+| Chi Mai | `chi mai` | `7483736254694035984` |
+| Giong nu pho thong | `giong nu pho thong` | `7264854897953083905` |
+| Tin | `tin` | `7102355803792740865` |
+| Ngon | `ngon` | `7102355709945188865` |
 
-For `failed` status, show the error message and offer a "Resume" button.
+Aliases ho tro:
 
-## Node.js Example
+```json
+[
+  {
+    "label": "Nguon nho ngot ngao",
+    "voice": "nguon nho ngot ngao",
+    "aliases": ["nguon-nho-ngot-ngao", "nguon_nho_ngot_ngao"],
+    "id": "7252594014782755330"
+  },
+  {
+    "label": "Chi Mai",
+    "voice": "chi mai",
+    "aliases": ["chi-mai", "chi_mai"],
+    "id": "7483736254694035984"
+  },
+  {
+    "label": "Giong nu pho thong",
+    "voice": "giong nu pho thong",
+    "aliases": ["giong-nu-pho-thong", "giong_nu_pho_thong"],
+    "id": "7264854897953083905"
+  },
+  {
+    "label": "Tin",
+    "voice": "tin",
+    "aliases": [],
+    "id": "7102355803792740865"
+  },
+  {
+    "label": "Ngon",
+    "voice": "ngon",
+    "aliases": [],
+    "id": "7102355709945188865"
+  }
+]
+```
+
+Co the gui truc tiep `voice id` neu muon, nhung khuyen nghi dung alias ASCII de
+code web de doc hon.
+
+## Node.js Backend Example
 
 ```js
 import fs from 'node:fs';
 
 const API_BASE = 'http://127.0.0.1:8089';
 
-async function createJob(docxPath) {
+export async function createTtsJob(docxPath) {
   const form = new FormData();
   form.set('file', new Blob([fs.readFileSync(docxPath)]), 'book.docx');
   form.set('voice', 'nguon nho ngot ngao');
@@ -276,24 +239,17 @@ async function createJob(docxPath) {
   return response.json();
 }
 
-async function waitUntilReady(jobId) {
-  while (true) {
-    const response = await fetch(`${API_BASE}/v1/synthesize/docx/jobs/${jobId}`);
-    const job = await response.json();
+export async function getTtsJob(jobId) {
+  const response = await fetch(`${API_BASE}/v1/synthesize/docx/jobs/${jobId}`);
 
-    if (job.status === 'failed') {
-      throw new Error(job.errorMessage || 'TTS job failed');
-    }
-
-    if (job.downloadReady) {
-      return job;
-    }
-
-    await new Promise((resolve) => setTimeout(resolve, 5000));
+  if (!response.ok) {
+    throw new Error(await response.text());
   }
+
+  return response.json();
 }
 
-async function download(jobId, outputPath) {
+export async function downloadTtsMp3(jobId, outputPath) {
   const response = await fetch(
     `${API_BASE}/v1/synthesize/docx/jobs/${jobId}/download`
   );
@@ -306,11 +262,9 @@ async function download(jobId, outputPath) {
 }
 ```
 
-## PHP/Laravel Shape
+## PHP/Laravel Backend Example
 
-Use multipart upload from the web backend to the TTS API.
-
-Pseudo-code:
+Create job:
 
 ```php
 $response = Http::attach(
@@ -325,23 +279,64 @@ $response = Http::attach(
 $job = $response->json();
 ```
 
-Then poll:
+Poll:
 
 ```php
-$job = Http::get("http://127.0.0.1:8089/v1/synthesize/docx/jobs/$jobId")->json();
+$job = Http::get(
+    "http://127.0.0.1:8089/v1/synthesize/docx/jobs/$jobId"
+)->json();
 ```
 
 Download:
 
 ```php
-$mp3 = Http::get("http://127.0.0.1:8089/v1/synthesize/docx/jobs/$jobId/download")->body();
+$mp3 = Http::get(
+    "http://127.0.0.1:8089/v1/synthesize/docx/jobs/$jobId/download"
+)->body();
+
 file_put_contents($outputPath, $mp3);
 ```
 
-## Notes
+## Optional: Text To Speech Ngan
 
-- Max DOCX upload size is currently `100MB`.
-- The backend checkpoints every generated chunk to disk.
-- Telegram notifications are enabled on the backend.
-- If CapCut session expires, the backend sends a QR login request via Telegram.
-- The web app does not need to handle CapCut login directly.
+Endpoint nay phu hop voi text ngan, khong phu hop sach dai:
+
+```http
+GET /v1/synthesize?text=...&voice=nguon%20nho%20ngot%20ngao&method=buffer
+```
+
+Example:
+
+```bash
+curl -G "http://127.0.0.1:8089/v1/synthesize" \
+  --data-urlencode "text=Xin chao, day la cau test." \
+  --data-urlencode "voice=nguon nho ngot ngao" \
+  --data-urlencode "method=buffer" \
+  -o sample.mp3
+```
+
+## Error Handling
+
+Common HTTP responses:
+
+```text
+400 invalid body, invalid file, invalid job id
+404 job not found
+409 job chua san sang de download, hoac khong resume duoc
+502 loi tu CapCut/API TTS
+```
+
+Neu download gap `409`, tiep tuc poll status.
+
+Neu status la `failed`, hien `errorMessage` cho admin/user va cho phep goi
+endpoint resume.
+
+## Notes Cho Web Backend
+
+- Max DOCX upload hien tai: `100MB`.
+- API TTS dang expose tren host: `127.0.0.1:8089`.
+- API TTS tu lo CapCut session. Khi session het han, bot Telegram se gui QR.
+- Web backend khong can xu ly CapCut login.
+- Web backend nen luu `jobId`, `fileName`, `status`, `progressPercent` va
+  `downloadUrl` de UI hien tien do.
+- Khong nen goi sync DOCX endpoint cho sach dai. Hay dung async job endpoint.
